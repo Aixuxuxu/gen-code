@@ -4,13 +4,17 @@
 代码生成器是基于[这位大佬](https://gitee.com/only4playgroup)的二次开发，主要是为了适应自己的项目结构和代码风格。
 > 目前只适用于JPA项目
 ### 展示
-
+![demo](image/demo.gif)
 ### 使用
 1. 下载代码到项目中
 ```shell
 git clone https://github.com/Aixuxuxu/gen-code.git
 ``` 
-2. 修改配置文件
+2. 将该模块打包到本地仓库
+```shell
+mvn clean install
+```
+3. 在被导入的模块中修改pom文件
 
 ```xml
  <build>
@@ -53,7 +57,7 @@ git clone https://github.com/Aixuxuxu/gen-code.git
         </plugins>
     </build>
 ```
-3. 运行
+4. 在需要生成的模块中运行
 ```shell
 mvn clean compile
 ```

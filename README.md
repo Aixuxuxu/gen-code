@@ -4,7 +4,7 @@
 代码生成器是基于[这位大佬](https://gitee.com/only4playgroup)的二次开发，主要是为了适应自己的项目结构和代码风格。
 > 目前只适用于JPA项目
 ### 展示
-![demo](image/demo.gif)
+![demo](https://img.aixuxu.online/demo.gif)
 ### 使用
 1. 下载代码到项目中
 ```shell
